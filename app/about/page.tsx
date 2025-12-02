@@ -33,18 +33,12 @@ export default async function About(){
 
     return(
 
-        // <AboutWrapper>
-        //     <Title>User Info!</Title>
-        //     <pre>{JSON.stringify(loggedIn.user, null, 2)}</pre>
-        //     <p>Name: {loggedIn.user?.name}</p>
-        //     <p>Email: {loggedIn.user?.email}</p>
-        // </AboutWrapper>  
-
-        <main>
-            <h2>User Info!</h2>
-            <p>Name: {loggedIn.user?.name}</p>
-            <p>Email: {loggedIn.user?.email}</p>
-        </main>
+        <div className="text-center border-[5px] border-[#76ABAE] bg-[#31363F] ml-[250px] mr-[250px]">
+            <h1 className="text-[EEEEEE] font-mono font-bold text-center mt-[10px] mx-[10px] text-[50px]">
+                User Info!</h1>
+            <h2 className="text-[EEEEEE] font-mono text-center mt-[10px] mx-[10px] text-[50px]">Name: {loggedIn.user?.name}</h2>
+            <h2 className="text-[EEEEEE] font-mono text-center mt-[10px] mx-[10px] text-[50px]">Email: {loggedIn.user?.email}</h2>
+        </div>
     );
 
 }
