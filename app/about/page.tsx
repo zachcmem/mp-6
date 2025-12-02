@@ -42,7 +42,6 @@ export default async function About(){
 
         <main>
             <h2>User Info!</h2>
-            <pre>{JSON.stringify(loggedIn.user, null, 2)}</pre>
             <p>Name: {loggedIn.user?.name}</p>
             <p>Email: {loggedIn.user?.email}</p>
         </main>
