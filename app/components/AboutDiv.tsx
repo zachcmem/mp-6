@@ -28,13 +28,9 @@
 export default function MainDiv(){
     
     return(
-        // <AboutWrapper>
-        //     <Title>User Info!</Title>
-            
-        // </AboutWrapper>  
-
-        <main>
-            <h2>User Info!</h2>
-        </main>  
+        <div className="text-center border-[5px] border-[#76ABAE] bg-[#31363F] ml-[250px] mr-[250px]">
+            <h1 className="text-[EEEEEE] font-mono font-bold text-center mt-[10px] mx=[10px] text-[50px]">
+                User Info!</h1>
+        </div>  
     );
 }
